@@ -197,9 +197,6 @@
     .interview__block--choice {
         margin-right: 0px;
     }
-    .form-check-label {
-        width: 240px;
-    }
     .quiz:nth-child(6) .line-active__interview {
         margin-bottom: 50px !important;
     }
@@ -333,21 +330,6 @@
         font-size: 18px;
         line-height: 22px;
     }
-    .form-check-label {
-        width: 195px;
-        font-size: 18px;
-        line-height: 22px;
-    }
-    .form-check-input {
-        width: 24px;
-        height: 24px;
-        margin-right: 15px;
-    }
-    .form-check-input:checked[type=radio]::before {
-        width: 7px;
-        height: 7px;
-        transform: translate(89%, 89%);
-    }
     .quiz:nth-child(6) .title-general {
         margin-bottom: 45px;
     }
@@ -361,6 +343,26 @@
     }
     .quiz-input__number--card {
         margin-bottom: 40px;
+    }
+    .interview__block--choice {
+        padding: 35px 15px 40px !important;
+    }
+    .quiz:nth-child(5) .interview__block--choice:last-child .custom-radio-click-check {
+        width: 212px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .label-radio {
+        width: 275px;
+    }
+    .custom-radio {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+    }
+    .custom-radio-click-check {
+        font-size: 17px;
+        line-height: 22px;
     }
 }
 

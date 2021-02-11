@@ -163,14 +163,6 @@ button:focus {
     }
 }
 
-.form-check-input:checked+label {
-    border: none;
-}
-
-.settings-btn:checked~.buttons-wrapper {
-    right: 0;
-}
-
 .medium-btn {
     padding: 20px 45px;
     background: #FF635C;
@@ -458,49 +450,54 @@ quiz:first-child {
     margin-right: 30px;
 }
 
-.form-check {
+
+/* radio */
+
+.label-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 370px;
     cursor: pointer;
 }
 
-.form-check-input {
+.label-radio:last-child {
+    margin-bottom: 0px;
+}
+
+.custom-radio {
     width: 32px;
     height: 32px;
-    margin-right: 22px;
-    border: 2px solid #7360B9;
-    position: relative;
-    cursor: pointer;
-}
-
-.form-check-input:hover {
-    border: 2px solid #7360B9;
-}
-
-.form-check-input:checked[type=radio]::before {
-    content: '';
-    position: absolute;
-    display: table;
-    width: 12px;
-    height: 12px;
-    background: #7360B9;
     border-radius: 50%;
-    left: 0;
-    top: 0;
-    transform: translate(65%, 65%);
-}
-
-.form-check-input:checked {
+    margin-right: 22px;
     background-color: #ffffff;
+    cursor: pointer;
     border: 2px solid #7360B9;
 }
 
-.form-check-label {
+.real-radio {
+    display: none;
+}
+
+.label-radio input:checked+.custom-radio {
+    background: url(../img/interview/123.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.custom-radio-click-check {
     font-family: 'Gilroy-Regular';
     font-size: 20px;
     line-height: 24px;
     color: #524193;
-    width: 370px;
-    cursor: pointer;
 }
+
+.quiz:nth-child(5) .interview__block--choice:last-child .custom-radio-click-check {
+    width: 320px;
+}
+
+
+/* rado */
 
 
 /* modal */

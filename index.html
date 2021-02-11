@@ -28,7 +28,7 @@
     </div>
     <section class="main">
 
-        <div class="quiz d-flex">
+        <div class="quiz d-flex" style="display: none !important;">
             <div class="left-main d-none d-lg-flex flex-column">
                 <p class="write-off">Помогаем списать долги<br>с 2015 года</p>
                 <p class="advantages">Преимущества<br>банкротство:
@@ -106,7 +106,7 @@
             </div>
         </div>
 
-        <div class="quiz d-flex" style="display: none !important;">
+        <div class="quiz d-flex">
             <div class="right-block position-relative w-100">
                 <img class="position-absolute left-element left-element__next" src="./img/fon/fon-element-left.png" alt="">
                 <div class="right-block__top d-none align-items-center d-lg-flex justify-content-between">
@@ -138,7 +138,30 @@
 
                         <div class="interview__block--choice d-flex flex-column">
 
-                            <div class="form-check mb-3 d-flex align-items-center">
+                            <!-- radio-->
+                            <label class="label-radio">
+                                <input type="radio" name="people-number" class="real-radio" checked> 
+                                <div class="custom-radio "></div>
+                                <p class="custom-radio-click-check ">400 000 - 500 000 рублей</p>
+                            </label>
+                            <label class="label-radio">
+                                <input type="radio" name="people-number" class="real-radio"> 
+                                <div class="custom-radio "></div>
+                                 <p class="custom-radio-click-check ">500 000 - 1 000 000 рублей</p>
+                            </label>
+                            <label class="label-radio">
+                                <input type="radio" name="people-number" class="real-radio"> 
+                                <div class="custom-radio "></div>
+                                <p class="custom-radio-click-check ">1 000 000 - 1 500 000 рублей</p>
+                            </label>
+                            <label class="label-radio mb-0">
+                                <input type="radio" name="people-number" class="real-radio"> 
+                                <div class="custom-radio "></div>
+                                <p class="custom-radio-click-check "> Более 1 500 000 рублей</p>
+                            </label>
+                            <!-- radio -->
+
+                            <!-- <div class="form-check mb-3 d-flex align-items-center">
                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                                 <label class="form-check-label" for="flexRadioDefault1">
                                 400 000 - 500 000 рублей
@@ -164,7 +187,7 @@
                                 <label class="form-check-label" for="flexRadioDefault4">
                                 Более 1 500 000 рублей
                             </label>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
@@ -210,6 +233,25 @@
 
                         <div class="interview__block--choice d-flex flex-column">
 
+                            <!-- radio-->
+                            <label class="label-radio">
+                                <input type="radio" name="people-number" class="real-radio" checked> 
+                                <div class="custom-radio "></div>
+                                <p class="custom-radio-click-check ">До 3х месяцев</p>
+                            </label>
+                            <label class="label-radio">
+                                <input type="radio" name="people-number" class="real-radio"> 
+                                <div class="custom-radio "></div>
+                                <p class="custom-radio-click-check ">от 3 до 12 месяцев</p>
+                            </label>
+                            <label class="label-radio">
+                                <input type="radio" name="people-number" class="real-radio"> 
+                                <div class="custom-radio "></div>
+                                <p class="custom-radio-click-check ">Больше года</p>
+                            </label>
+                            <!-- radio -->
+
+                            <!-- 
                             <div class="form-check mb-3 d-flex align-items-center">
                                 <input class="form-check-input" type="radio" checked name="flexRadioDefault" id="fl1">
                                 <label class="form-check-label" for="fl1">
@@ -229,7 +271,7 @@
                                 <label class="form-check-label" for="fl3">
                                     Больше года
                             </label>
-                            </div>
+                            </div> -->
 
                         </div>
 
@@ -276,8 +318,26 @@
 
                         <div class="interview__block--choice d-flex flex-column">
 
+                            <!-- radio-->
+                            <label class="label-radio">
+                                <input type="radio" name="people-number" class="real-radio" checked> 
+                                <div class="custom-radio "></div>
+                                <p class="custom-radio-click-check ">Да</p>
+                            </label>
+                            <label class="label-radio">
+                                <input type="radio" name="people-number" class="real-radio"> 
+                                <div class="custom-radio "></div>
+                                 <p class="custom-radio-click-check ">Нет</p>
+                            </label>
+                            <label class="label-radio">
+                                <input type="radio" name="people-number" class="real-radio mb-0"> 
+                                <div class="custom-radio "></div>
+                                <p class="custom-radio-click-check ">Еще не определился</p>
+                            </label>
 
-                            <div class="form-check mb-3 d-flex align-items-center">
+                            <!-- radio -->
+
+                            <!-- <div class="form-check mb-3 d-flex align-items-center">
                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="f1">
                                 <label class="form-check-label" for="f1">
                                     Да
@@ -296,7 +356,7 @@
                                 <label class="form-check-label" for="f3">
                                     Еще не определился
                             </label>
-                            </div>
+                            </div> -->
 
                         </div>
 
@@ -343,26 +403,22 @@
 
                         <div class="interview__block--choice d-flex flex-column">
 
-                            <div class="form-check mb-3 d-flex align-items-center">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flex1" checked>
-                                <label class="form-check-label" for="flex1">
-                                    WhatsApp
+                            <!-- radio-->
+                            <label class="label-radio">
+                                <input type="radio" name="people-number" class="real-radio" checked> 
+                                <div class="custom-radio "></div>
+                                <p class="custom-radio-click-check ">WhatsApp</p>
                             </label>
-                            </div>
-
-                            <div class="form-check mb-3 d-flex align-items-center">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flex2">
-                                <label class="form-check-label" for="flex2">
-                                    СМС
+                            <label class="label-radio">
+                                <input type="radio" name="people-number" class="real-radio"> 
+                                <div class="custom-radio "></div>
+                                 <p class="custom-radio-click-check ">СМС</p>
                             </label>
-                            </div>
-
-                            <div class="form-check d-flex align-items-start">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flex3">
-                                <label class="form-check-label" for="flex3">
-                                    БЕСПЛАТНАЯ консультация по телефону – хочу узнать о скидках на услуги и рассрочке, которая сейчас действует
+                            <label class="label-radio d-flex align-items-start mb-0">
+                                <input type="radio" name="people-number" class="real-radio"> 
+                                <div class="custom-radio "></div>
+                                <p class="custom-radio-click-check ">БЕСПЛАТНАЯ консультация по телефону – хочу узнать о скидках на услуги и рассрочке, которая сейчас действует</p>
                             </label>
-                            </div>
 
                         </div>
 
