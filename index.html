@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Банкротство</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/gilroy.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <div class="modal-thanks" style="display: none;">
+        <div class="modal-thanks__content d-flex flex-column align-items-center justify-content-center">
+            <img class="mb-5" src="./img/interwiev/Vector.png" alt="">
+            <h5 class="modal-title__quiz mb-5 text-center" id="staticBackdropLabel">Спасибо за ответы
+            </h5>
+            <p class="thanks__content--text mb-5">
+                Ваши ответы приняты в <br> обработку.
+            </p>
+            <p class="thanks__content--text">
+                В ближайшие 10 минут с Вами <br> свяжется юрист.
+            </p>
+        </div>
+    </div>
+    <section class="main">
+
+        <div class="quiz d-flex">
+            <div class="left-main d-none d-lg-flex flex-column">
+                <p class="write-off">Помогаем списать долги<br>с 2015 года</p>
+                <p class="advantages">Преимущества<br>банкротство:
+                </p>
+                <div class="general-list d-flex flex-column">
+                    <div class="general-list__item d-flex flex-column">
+                        <div class="wrapper mb-1"><img src="./img/general-list/zero.svg" alt=""></div>
+                        <p class="generak-list__text">Беспроцентная рассрочка </p>
+                    </div>
+                    <div class="general-list__item d-flex flex-column">
+                        <div class="wrapper mb-1"><img src="./img/general-list/man.svg" alt=""></div>
+                        <p class="generak-list__text">Избавляем от коллекторов
+                        </p>
+                    </div>
+                    <div class="general-list__item d-flex flex-column">
+                        <div class="wrapper mb-1">
+                            <img src="./img/general-list/take-money.svg" alt=" "></div>
+                        <p class="generak-list__text ">Полностью спишем все долги </p>
+                    </div>
+                    <div class="general-list__item d-flex flex-column mb-0">
+                        <div class="wrapper mb-1"><img src="./img/general-list/zero-rub.svg " alt=" "></div>
+                        <p class="generak-list__text ">Начнем работу уже сегодня. <br> Предоплата 0₽. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-block position-relative">
+                <img class="position-absolute left-element" src="./img/fon/fon-element-left.png" alt="">
+                <div class="right-block__top d-none d-lg-flex justify-content-between">
+
+                    <h3 class="right-block__title">Работаем в Краснодаре</h3>
+                    <a href="tel:8 (800) 511-62-98" class="right-block-number"> 8 (800) 511-62-98</a>
+                </div>
+
+                <div class="right-block__top d-flex d-lg-none flex-column align-items-center">
+                    <a href="tel:8 (800) 511-62-98" class="right-block-number"> 8 (800) 511-62-98</a>
+                    <h3 class="right-block__title">Работаем в Краснодаре</h3>
+                    <p class="write-off__right text-center">Помогаем списать долги <br> с 2015 года</p>
+                </div>
+
+                <img src="./img/fon/fon-mobile.png" class="position-absolute fon-mobile--quiz  d-block d-lg-none" alt="">
+
+                <h1 class="title-general"><span>Законно спишем долги</span><br> и 100% защитим ваше имущество</h1>
+                <p class="guarantee">Гарантия возврата денег по договору,<br> если не выполним перед вами обязательства</p>
+                <p class="go-quiz">Ответьте на 4 простых вопросов и узнайте точную стоимость списания долгов</p>
+                <button class="medium-btn mb-3">Узнать точную стоимость списания долгов</button>
+                <p class="fixed-cost">Эту стоимость фиксируем в договоре. Она не меняется</p>
+                <img class="position-absolute right-element" src="./img/fon/fon-element-right.png" alt="">
+
+                <div class="left-main d-flex flex-column d-lg-none">
+                    <p class="write-off">Помогаем списать долги<br>с 2015 года</p>
+                    <p class="advantages">Преимущества<br>банкротство:
+                    </p>
+                    <div class="general-list d-flex flex-column">
+                        <div class="general-list__item d-flex flex-column">
+                            <div class="wrapper mb-1"><img src="./img/general-list/zero.svg" alt=""></div>
+                            <p class="generak-list__text">Беспроцентная рассрочка </p>
+                        </div>
+                        <div class="general-list__item d-flex flex-column">
+                            <div class="wrapper mb-1"><img src="./img/general-list/man.svg" alt=""></div>
+                            <p class="generak-list__text">Избавляем от коллекторов
+                            </p>
+                        </div>
+                        <div class="general-list__item d-flex flex-column">
+                            <div class="wrapper mb-1">
+                                <img src="./img/general-list/take-money.svg" alt=" "></div>
+                            <p class="generak-list__text ">Полностью спишем все долги </p>
+                        </div>
+                        <div class="general-list__item d-flex flex-column mb-0">
+                            <div class="wrapper mb-1"><img src="./img/general-list/zero-rub.svg " alt=" "></div>
+                            <p class="generak-list__text ">Начнем работу уже сегодня. <br> Предоплата 0₽. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quiz d-flex" style="display: none !important;">
+            <div class="right-block position-relative w-100">
+                <img class="position-absolute left-element left-element__next" src="./img/fon/fon-element-left.png" alt="">
+                <div class="right-block__top d-none align-items-center d-lg-flex justify-content-between">
+                    <p class="write-off__right">Помогаем списать долги с 2015 года</p>
+                    <h3 class="right-block__title">Работаем в Краснодаре</h3>
+                    <p class="right-block-number"> 8 (800) 511-62-98</p>
+                </div>
+
+                <div class="right-block__top d-flex d-lg-none flex-column align-items-center">
+                    <a href="tel:8 (800) 511-62-98" class="right-block-number"> 8 (800) 511-62-98</a>
+                    <h3 class="right-block__title">Работаем в Краснодаре</h3>
+                    <p class="write-off__right text-center">Помогаем списать долги <br> с 2015 года</p>
+                </div>
+
+                <div class="quiz-interview d-flex flex-column justify-content-center align-items-center">
+
+                    <div class="line-active__interview d-flex mb-4">
+                        <div class="line-active__item line-active__item--check bg-white"></div>
+                        <div class="line-active__item"></div>
+                        <div class="line-active__item"></div>
+                        <div class="line-active__item"></div>
+                        <div class="line-active__item"></div>
+                    </div>
+
+                    <h1 class="title-general">Сколько времени вы не платите по кредитам?</h1>
+
+                    <div class="quiz-interview__block d-flex align-items-center">
+                        <img src="./img/interview/one.png" alt="" class="interview__block--picture">
+
+                        <div class="interview__block--choice d-flex flex-column">
+
+                            <div class="form-check mb-3 d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                400 000 - 500 000 рублей
+                            </label>
+                            </div>
+
+                            <div class="form-check mb-3 d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                500 000 - 1 000 000 рублей
+                            </label>
+                            </div>
+
+                            <div class="form-check mb-3 d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                1 000 000 - 1 500 000 рублей
+                            </label>
+                            </div>
+
+                            <div class="form-check d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                                <label class="form-check-label" for="flexRadioDefault4">
+                                Более 1 500 000 рублей
+                            </label>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="prev-next d-flex">
+                        <button class="prev-btn">Назад</button>
+                        <button class="medium-btn">Далее</button>
+                    </div>
+                </div>
+                <img class="position-absolute right-element" src="./img/fon/fon-element-right.png" alt="">
+            </div>
+        </div>
+
+        <div class="quiz d-flex" style="display: none !important;">
+            <div class="right-block position-relative w-100">
+                <img class="position-absolute left-element left-element__next" src="./img/fon/fon-element-left.png" alt="">
+                <div class="right-block__top d-none align-items-center d-lg-flex justify-content-between">
+                    <p class="write-off__right">Помогаем списать долги с 2015 года</p>
+                    <h3 class="right-block__title">Работаем в Краснодаре</h3>
+                    <p class="right-block-number"> 8 (800) 511-62-98</p>
+                </div>
+
+                <div class="right-block__top d-flex d-lg-none flex-column align-items-center">
+                    <a href="tel:8 (800) 511-62-98" class="right-block-number"> 8 (800) 511-62-98</a>
+                    <h3 class="right-block__title">Работаем в Краснодаре</h3>
+                    <p class="write-off__right text-center">Помогаем списать долги <br> с 2015 года</p>
+                </div>
+
+                <div class="quiz-interview d-flex flex-column justify-content-center align-items-center">
+
+                    <div class="line-active__interview d-flex mb-4">
+                        <div class="line-active__item"></div>
+                        <div class="line-active__item line-active__item--check bg-white"></div>
+                        <div class="line-active__item"></div>
+                        <div class="line-active__item"></div>
+                        <div class="line-active__item"></div>
+                    </div>
+
+                    <h1 class="title-general">Нужна рассрочка?</h1>
+
+                    <div class="quiz-interview__block d-flex align-items-center">
+                        <img src="./img/interview/two.png" alt="" class="interview__block--picture">
+
+                        <div class="interview__block--choice d-flex flex-column">
+
+                            <div class="form-check mb-3 d-flex align-items-center">
+                                <input class="form-check-input" type="radio" checked name="flexRadioDefault" id="fl1">
+                                <label class="form-check-label" for="fl1">
+                                    До 3х месяцев
+                            </label>
+                            </div>
+
+                            <div class="form-check mb-3 d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="fl2">
+                                <label class="form-check-label" for="fl2">
+                                    от 3 до 12 месяцев
+                            </label>
+                            </div>
+
+                            <div class="form-check d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="fl3">
+                                <label class="form-check-label" for="fl3">
+                                    Больше года
+                            </label>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="prev-next d-flex">
+                        <button class="prev-btn">Назад</button>
+                        <button class="medium-btn">Далее</button>
+                    </div>
+                </div>
+                <img class="position-absolute right-element" src="./img/fon/fon-element-right.png" alt="">
+            </div>
+        </div>
+
+        <div class="quiz d-flex" style="display: none !important;">
+            <div class="right-block position-relative w-100">
+                <img class="position-absolute left-element left-element__next" src="./img/fon/fon-element-left.png" alt="">
+                <div class="right-block__top d-none d-lg-flex align-items-center justify-content-between">
+                    <p class="write-off__right">Помогаем списать долги с 2015 года</p>
+                    <h3 class="right-block__title">Работаем в Краснодаре</h3>
+                    <p class="right-block-number"> 8 (800) 511-62-98</p>
+                </div>
+
+                <div class="right-block__top d-flex d-lg-none flex-column align-items-center">
+                    <a href="tel:8 (800) 511-62-98" class="right-block-number"> 8 (800) 511-62-98</a>
+                    <h3 class="right-block__title">Работаем в Краснодаре</h3>
+                    <p class="write-off__right text-center">Помогаем списать долги <br> с 2015 года</p>
+                </div>
+
+                <div class="quiz-interview d-flex flex-column justify-content-center align-items-center">
+
+                    <div class="line-active__interview d-flex mb-4">
+                        <div class="line-active__item"></div>
+                        <div class="line-active__item "></div>
+                        <div class="line-active__item line-active__item--check bg-white"></div>
+                        <div class="line-active__item"></div>
+                        <div class="line-active__item"></div>
+                    </div>
+
+                    <h1 class="title-general">Как вам удобно получить расчёт?</h1>
+
+                    <div class="quiz-interview__block d-flex align-items-center">
+                        <img src="./img/interview/three.png" alt="" class="interview__block--picture">
+
+                        <div class="interview__block--choice d-flex flex-column">
+
+
+                            <div class="form-check mb-3 d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="f1">
+                                <label class="form-check-label" for="f1">
+                                    Да
+                            </label>
+                            </div>
+
+                            <div class="form-check mb-3 d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="f2">
+                                <label class="form-check-label" for="f2">
+                                    Нет
+                            </label>
+                            </div>
+
+                            <div class="form-check d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="f3">
+                                <label class="form-check-label" for="f3">
+                                    Еще не определился
+                            </label>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="prev-next d-flex">
+                        <button class="prev-btn">Назад</button>
+                        <button class="medium-btn">Далее</button>
+                    </div>
+                </div>
+                <img class="position-absolute right-element" src="./img/fon/fon-element-right.png" alt="">
+            </div>
+        </div>
+
+        <div class="quiz d-flex" style="display: none !important;">
+            <div class="right-block position-relative w-100">
+                <img class="position-absolute left-element left-element__next" src="./img/fon/fon-element-left.png" alt="">
+                <div class="right-block__top d-none align-items-center d-lg-flex justify-content-between">
+                    <p class="write-off__right">Помогаем списать долги с 2015 года</p>
+                    <h3 class="right-block__title">Работаем в Краснодаре</h3>
+                    <p class="right-block-number"> 8 (800) 511-62-98</p>
+                </div>
+
+                <div class="right-block__top d-flex d-lg-none flex-column align-items-center">
+                    <a href="tel:8 (800) 511-62-98" class="right-block-number"> 8 (800) 511-62-98</a>
+                    <h3 class="right-block__title">Работаем в Краснодаре</h3>
+                    <p class="write-off__right text-center">Помогаем списать долги <br> с 2015 года</p>
+                </div>
+
+                <div class="quiz-interview d-flex flex-column justify-content-center align-items-center">
+
+                    <div class="line-active__interview d-flex mb-4">
+                        <div class="line-active__item"></div>
+                        <div class="line-active__item "></div>
+                        <div class="line-active__item "></div>
+                        <div class="line-active__item line-active__item--check bg-white"></div>
+                        <div class="line-active__item"></div>
+                    </div>
+
+                    <h1 class="title-general">Какая сумма вашего долга?</h1>
+
+                    <div class="quiz-interview__block d-flex align-items-center">
+                        <img src="./img/interview/three.png" alt="" class="interview__block--picture">
+
+                        <div class="interview__block--choice d-flex flex-column">
+
+                            <div class="form-check mb-3 d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flex1" checked>
+                                <label class="form-check-label" for="flex1">
+                                    WhatsApp
+                            </label>
+                            </div>
+
+                            <div class="form-check mb-3 d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flex2">
+                                <label class="form-check-label" for="flex2">
+                                    СМС
+                            </label>
+                            </div>
+
+                            <div class="form-check d-flex align-items-start">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flex3">
+                                <label class="form-check-label" for="flex3">
+                                    БЕСПЛАТНАЯ консультация по телефону – хочу узнать о скидках на услуги и рассрочке, которая сейчас действует
+                            </label>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="prev-next d-flex">
+                        <button class="prev-btn">Назад</button>
+                        <button class="medium-btn">Далее</button>
+                    </div>
+                </div>
+                <img class="position-absolute right-element" src="./img/fon/fon-element-right.png" alt="">
+            </div>
+        </div>
+
+        <div class="quiz d-flex" style="display: none !important;">
+            <div class="right-block position-relative w-100">
+                <img class="position-absolute left-element left-element__next" src="./img/fon/fon-element-left.png" alt="">
+                <div class="right-block__top d-none align-items-center d-lg-flex justify-content-between">
+                    <p class="write-off__right">Помогаем списать долги с 2015 года</p>
+                    <h3 class="right-block__title">Работаем в Краснодаре</h3>
+                    <p class="right-block-number"> 8 (800) 511-62-98</p>
+                </div>
+
+                <div class="right-block__top d-flex d-lg-none flex-column align-items-center">
+                    <a href="tel:8 (800) 511-62-98" class="right-block-number"> 8 (800) 511-62-98</a>
+                    <h3 class="right-block__title">Работаем в Краснодаре</h3>
+                    <p class="write-off__right text-center">Помогаем списать долги <br> с 2015 года</p>
+                </div>
+
+                <div class="quiz-interview d-flex flex-column justify-content-center align-items-center">
+
+                    <div class="line-active__interview d-flex mb-4">
+                        <div class="line-active__item"></div>
+                        <div class="line-active__item "></div>
+                        <div class="line-active__item "></div>
+                        <div class="line-active__item"></div>
+                        <div class="line-active__item line-active__item--check bg-white"></div>
+                    </div>
+
+                    <h1 class="title-general text-center">Получите результат расчёта,<br>оставив контакты</h1>
+
+
+
+                    <input class="quiz-input__number--card" type="tel" name="phone_number" list="tel-list" placeholder="+7 (___) ___ - __ - __" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
+
+
+
+                    <div class="prev-next d-flex">
+                        <button class="prev-btn">Назад</button>
+                        <button class="medium-btn">Далее</button>
+                    </div>
+                </div>
+                <img class="position-absolute right-element" src="./img/fon/fon-element-right.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js " integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js " integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj " crossorigin="anonymous "></script>
+</body>
+
+</html>
